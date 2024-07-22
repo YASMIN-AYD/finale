@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    display: grid;
+    background-color:#A9A9A9;
+    padding: 0px;
+    position: -webkit-sticky ;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+    border: 14px solid #A9A9A9;
+    grid-template-columns:30px 458px 435px 181px 42px 134px 29px;
+
+
+    
+
+
+}
+.art a{
+    font-size: 18px;
+    display: inline;
+    color: #262D22;
+    text-decoration: none;
+    font-weight: bold;
+}
+.coeur img{
+    height: 20px;
+}
+.female img{
+
+    height: 29px;
+    margin-left: 100px;
+
+}
+#fe{
+    display: flex;
+    justify-content: flex-end;
+}
+header btn{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.custom-celect{
+    display: flex;
+    position: relative;
+    font-family: Arial;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.selected{
+    font-size: 20px;
+    width: 140px;
+    background-color: #FEF5DA;
+    color: #593647;
+    border: 0px;
+    padding-top: 3px;
+    font-family: "times new roman";
+}
+.custom-celect h3{
+    font-size: 18px;
+    margin: 0px;
+    color: #262D22;
+}
+.custom-celect a{
+    display: flex;
+    color: #262D22;
+    text-decoration: none;
+
+}
+.art h1{
+    font-size: 18px;
+    display: inline;
+    color: #593647;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+}
+article p{
+    margin-top: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+    color: #1E2F47;
+    width: 600px;
+    
+}
+
+header input{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+
+
+}
+
+.search-container {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+    margin: 0; /* Centers the container */
+    height: 1px;
+  }
+  
+  .search-input {
+    width: calc(100% - 40px); /* Adjust based on the button width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; /* Rounded corners on left side only */
+    height: 7px;
+  }
+  
+  .search-button {
+    position:absolute;
+    right: 0;
+    top: 0;
+    width: 34px; /* Adjust width as needed */
+    height: 28px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 0 5px 5px 0; /* Rounded corners on right side only */
+    cursor: pointer;
+
+  }
+  
+  .search-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .fa {
+    /* Font Awesome styles (assuming you're using Font Awesome icons) */
+    font-size: 4px;
+    line-height: 40px; /* Centers the icon vertically */
+    text-align: center;
+  }
+  #cycle img{
+    width: 1372px;
+
+  }
+  .art a:hover{
+    color: #595a20;
+  }
+  .custom-celect a:hover{
+    color: #595a20;
+  }
